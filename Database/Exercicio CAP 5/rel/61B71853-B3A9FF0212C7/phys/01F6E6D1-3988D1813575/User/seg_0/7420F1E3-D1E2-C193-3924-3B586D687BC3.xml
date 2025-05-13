@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="DAVI7" directorySegmentName="seg_0" id="7420F1E3-D1E2-C193-3924-3B586D687BC3">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjName>DAVI7</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<schemaObject>CEFFA15D-89F7-E73E-A5FF-AAB17316F6EF</schemaObject>
+</UserOraclev10g>

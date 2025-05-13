@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C01026B4-807F-B789-5DAC-FB7FC5873FD1" schemaObject="CEFFA15D-89F7-E73E-A5FF-AAB17316F6EF" name="TELEFONE">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>DAVI7</sourceObjSchema>
+<sourceObjName>TELEFONE</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TELEFONE" id="734D4DA8-2078-E2C6-2AA6-8869A4043EFC">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>TELEFONE</sourceObjSchema>
+<sourceObjName>ID_TELEFONE</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="ID_CONTATO" id="E6FFC2B8-A820-3DB7-B03C-80D046692BC2">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>TELEFONE</sourceObjSchema>
+<sourceObjName>ID_CONTATO</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="452E2648-777F-FD93-DF21-AE7341CD1269" referredColumn="271A0FB6-390F-EA9F-8515-40F99BF7D6A7"/>
+</associations>
+</Column>
+<Column name="NUMERO" id="1BE479B0-99FA-A2B0-F5BF-4C5AE1B97383">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>TELEFONE</sourceObjSchema>
+<sourceObjName>NUMERO</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="663E43D8-D454-9D67-541A-16E6557CE698">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>TELEFONE</sourceObjSchema>
+<sourceObjName>TIPO</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PREFERENCIAL" id="164A0969-3B13-9604-30E8-06AC510431D4">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>TELEFONE</sourceObjSchema>
+<sourceObjName>PREFERENCIAL</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<constraintName>SYS_C008226</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC808167-66A6-1E16-0649-D528BB797B27" schemaObject="CEFFA15D-89F7-E73E-A5FF-AAB17316F6EF" name="TELEFONE_PK">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>DAVI7</sourceObjSchema>
+<sourceObjName>SYS_C008227</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:57 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="734D4DA8-2078-E2C6-2AA6-8869A4043EFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B37F11EC-D959-29CA-B1FE-6665AE9508BA" schemaObject="CEFFA15D-89F7-E73E-A5FF-AAB17316F6EF" name="IDX_TELEFONE_NUMERO">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>DAVI7</sourceObjSchema>
+<sourceObjName>IDX_TELEFONE_NUMERO</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:57 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BE479B0-99FA-A2B0-F5BF-4C5AE1B97383"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B8A3E1A-5F02-000D-E5A3-8F0A91D89428" name="FK_TELEFONE_CONTATO">
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:59 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6FFC2B8-A820-3DB7-B03C-80D046692BC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

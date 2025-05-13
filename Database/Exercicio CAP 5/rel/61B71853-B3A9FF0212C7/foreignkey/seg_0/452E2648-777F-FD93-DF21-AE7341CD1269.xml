@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="452E2648-777F-FD93-DF21-AE7341CD1269" containerWithKeyObject="C01026B4-807F-B789-5DAC-FB7FC5873FD1" localFKIndex="4B8A3E1A-5F02-000D-E5A3-8F0A91D89428" name="FK_TELEFONE_CONTATO">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>DAVI7</sourceObjSchema>
+<sourceObjName>FK_TELEFONE_CONTATO</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:59 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<referredTableLongName>DAVI7.CONTATO</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>93206641-2DA1-D45A-54DB-0C32549950AB</referredTableID>
+<keyObject>D8AE269F-5A58-9E05-3D25-C3B4E6416A02</keyObject>
+<referredKeyID>D8AE269F-5A58-9E05-3D25-C3B4E6416A02</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CONTATO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

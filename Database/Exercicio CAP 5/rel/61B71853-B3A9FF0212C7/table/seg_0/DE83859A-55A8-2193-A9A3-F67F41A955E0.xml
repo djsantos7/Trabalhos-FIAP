@@ -1,0 +1,210 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE83859A-55A8-2193-A9A3-F67F41A955E0" schemaObject="CEFFA15D-89F7-E73E-A5FF-AAB17316F6EF" name="ENDERECO">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>DAVI7</sourceObjSchema>
+<sourceObjName>ENDERECO</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ENDERECO" id="CEBA5973-900A-F472-6230-86DE34522583">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>ENDERECO</sourceObjSchema>
+<sourceObjName>ID_ENDERECO</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="ID_CONTATO" id="B82A46C9-4C00-F6C9-3FD0-5AE2BB68B41B">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>ENDERECO</sourceObjSchema>
+<sourceObjName>ID_CONTATO</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52F064DE-47F6-A64A-D9B9-36F6F9C960A7" referredColumn="271A0FB6-390F-EA9F-8515-40F99BF7D6A7"/>
+</associations>
+</Column>
+<Column name="RUA" id="A7D278BA-E36E-D5A5-0BD5-08CCDFAA91AE">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>ENDERECO</sourceObjSchema>
+<sourceObjName>RUA</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO" id="B5B696AC-4015-F84A-1C86-632B03AE2BCB">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>ENDERECO</sourceObjSchema>
+<sourceObjName>NUMERO</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMPLEMENTO" id="06F0BEE0-5B05-8937-6E57-4E0FCC269AC4">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>ENDERECO</sourceObjSchema>
+<sourceObjName>COMPLEMENTO</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BAIRRO" id="57D3416E-31AF-5801-A389-4BE4894F1A89">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>ENDERECO</sourceObjSchema>
+<sourceObjName>BAIRRO</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIDADE" id="1941A66E-902B-85EE-0759-F3D365D41D61">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>ENDERECO</sourceObjSchema>
+<sourceObjName>CIDADE</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="BD891ED4-DC7D-F74D-1120-44344D99B2A3">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>ENDERECO</sourceObjSchema>
+<sourceObjName>ESTADO</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS" id="1BF42EBB-F3A0-401E-245F-6DB7FADEC3D3">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>ENDERECO</sourceObjSchema>
+<sourceObjName>PAIS</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEP" id="BEF39019-DE6C-CFF2-AC24-2654E37758E9">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>ENDERECO</sourceObjSchema>
+<sourceObjName>CEP</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="4EABB531-EFDF-C0CB-25F0-4F60FEA3B946">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>ENDERECO</sourceObjSchema>
+<sourceObjName>TIPO</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="193E81A0-EBAE-676C-F5A3-3133F95AA0E8" schemaObject="CEFFA15D-89F7-E73E-A5FF-AAB17316F6EF" name="ENDERECO_PK">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>DAVI7</sourceObjSchema>
+<sourceObjName>SYS_C008236</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:57 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEBA5973-900A-F472-6230-86DE34522583"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F1DC589-009D-F5E8-519C-871DB63DD251" name="FK_ENDERECO_CONTATO">
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:59 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B82A46C9-4C00-F6C9-3FD0-5AE2BB68B41B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

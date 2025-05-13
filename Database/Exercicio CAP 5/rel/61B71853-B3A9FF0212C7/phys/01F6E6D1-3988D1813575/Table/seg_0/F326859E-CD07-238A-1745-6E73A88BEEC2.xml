@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="GRUPO" directorySegmentName="seg_0" id="F326859E-CD07-238A-1745-6E73A88BEEC2">
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<schemaObject>CEFFA15D-89F7-E73E-A5FF-AAB17316F6EF</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>D040C9DC-5340-7EF3-6514-4828B9E5C62C</segment>
+<tableSpace>C02CC96C-27B3-DFAA-E171-1C6DFCC33077</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DESCRICAO" id="1F3165E8-133B-375E-69F2-022B5CE6E1BA">
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NM_GRUPO" id="300A8F55-A1E8-1A08-EE10-C058914DF2FB">
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_GRUPO" id="875339FF-FC87-448D-1F91-1299F252E7BF">
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IDX_GRUPO_NOME" id="C35347BF-C8BD-09D6-540B-6DEB10708EAD">
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:57 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<schemaObject>CEFFA15D-89F7-E73E-A5FF-AAB17316F6EF</schemaObject>
+<segment>2C054667-B2A8-E794-CCC1-0B7BF416B239</segment>
+<tableSpace>C02CC96C-27B3-DFAA-E171-1C6DFCC33077</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="GRUPO_PK" id="57267837-55FC-E4D3-9484-FA42C7F2661A">
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:58 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<schemaObject>CEFFA15D-89F7-E73E-A5FF-AAB17316F6EF</schemaObject>
+<segment>2C054667-B2A8-E794-CCC1-0B7BF416B239</segment>
+<tableSpace>C02CC96C-27B3-DFAA-E171-1C6DFCC33077</tableSpace>
+<indexSegment>2C054667-B2A8-E794-CCC1-0B7BF416B239</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

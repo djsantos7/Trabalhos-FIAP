@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="EMAIL" directorySegmentName="seg_0" id="5D8FFABB-4A53-6F07-F856-D57EF4BF2E7C">
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<schemaObject>CEFFA15D-89F7-E73E-A5FF-AAB17316F6EF</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>D040C9DC-5340-7EF3-6514-4828B9E5C62C</segment>
+<tableSpace>C02CC96C-27B3-DFAA-E171-1C6DFCC33077</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_EMAIL" id="24A747C3-3F83-E519-5765-8360EFFF1184">
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="ENDERECO_EMAIL" id="4BCEB42A-D600-5B37-6D07-9DD6F8347A5A">
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_CONTATO" id="9E70C80F-5301-4661-5883-5735F3E39E38">
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPO" id="D29E482F-EF0B-21D8-9221-9D7FCFC9DE00">
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IDX_EMAIL_ENDERECO" id="5D88FB95-03D6-C5DB-A9D9-69730A7972F1">
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:57 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<schemaObject>CEFFA15D-89F7-E73E-A5FF-AAB17316F6EF</schemaObject>
+<segment>2C054667-B2A8-E794-CCC1-0B7BF416B239</segment>
+<tableSpace>C02CC96C-27B3-DFAA-E171-1C6DFCC33077</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_EMAIL_CONTATO" id="6E1D1A2A-4437-E196-2DA3-A821E5E332A2">
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:59 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EMAIL_PK" id="EFD914A3-18F8-23A6-C270-DC2F900B9C54">
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:58 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<schemaObject>CEFFA15D-89F7-E73E-A5FF-AAB17316F6EF</schemaObject>
+<segment>2C054667-B2A8-E794-CCC1-0B7BF416B239</segment>
+<tableSpace>C02CC96C-27B3-DFAA-E171-1C6DFCC33077</tableSpace>
+<indexSegment>2C054667-B2A8-E794-CCC1-0B7BF416B239</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

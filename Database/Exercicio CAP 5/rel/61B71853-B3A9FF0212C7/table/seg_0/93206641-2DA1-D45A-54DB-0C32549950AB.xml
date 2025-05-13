@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93206641-2DA1-D45A-54DB-0C32549950AB" schemaObject="CEFFA15D-89F7-E73E-A5FF-AAB17316F6EF" name="CONTATO">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>DAVI7</sourceObjSchema>
+<sourceObjName>CONTATO</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CONTATO" id="271A0FB6-390F-EA9F-8515-40F99BF7D6A7">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>CONTATO</sourceObjSchema>
+<sourceObjName>ID_CONTATO</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="NOME" id="57F604FA-BE98-E983-563E-6B3A59B12315">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>CONTATO</sourceObjSchema>
+<sourceObjName>NOME</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELIDO" id="331A4558-E05E-9D0E-93CE-ED26AD50D8F8">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>CONTATO</sourceObjSchema>
+<sourceObjName>APELIDO</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANIVERSARIO" id="35517A55-EB63-BD49-9F95-1BF7BFA12D22">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>CONTATO</sourceObjSchema>
+<sourceObjName>ANIVERSARIO</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPRESA" id="5D2C53BE-901F-FE2C-5627-914DED79B87C">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>CONTATO</sourceObjSchema>
+<sourceObjName>EMPRESA</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARGO" id="1D5E9A45-FFDC-8096-D75F-EA79FED798C2">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>CONTATO</sourceObjSchema>
+<sourceObjName>CARGO</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FOTO_URL" id="42F0F4A5-C084-DF41-7EAC-52417B475D2A">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>CONTATO</sourceObjSchema>
+<sourceObjName>FOTO_URL</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTAS" id="6EE70613-5F37-17C0-EC0D-18C072E384AA">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>CONTATO</sourceObjSchema>
+<sourceObjName>NOTAS</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITE_PESSOAL" id="F3DAFE85-6E11-21C2-4DE8-14AA0C046C3B">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>CONTATO</sourceObjSchema>
+<sourceObjName>SITE_PESSOAL</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8AE269F-5A58-9E05-3D25-C3B4E6416A02" schemaObject="CEFFA15D-89F7-E73E-A5FF-AAB17316F6EF" name="CONTATO_PK">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>DAVI7</sourceObjSchema>
+<sourceObjName>SYS_C008222</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:57 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="271A0FB6-390F-EA9F-8515-40F99BF7D6A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F9EA39F-C118-F08A-D1BA-5FBBBCAF341F" schemaObject="CEFFA15D-89F7-E73E-A5FF-AAB17316F6EF" name="CONTATO_GRUPO_ASSOC">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>DAVI7</sourceObjSchema>
+<sourceObjName>CONTATO_GRUPO_ASSOC</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CONTATO" id="9DBB4352-FB8B-69ED-52C9-F39B44093638">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>CONTATO_GRUPO_ASSOC</sourceObjSchema>
+<sourceObjName>ID_CONTATO</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57A80F1E-6ECF-B29B-1739-BB4A8C8DDBBD" referredColumn="271A0FB6-390F-EA9F-8515-40F99BF7D6A7"/>
+</associations>
+</Column>
+<Column name="ID_GRUPO" id="A4A75298-6070-0AE8-162D-68226952FC9C">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>CONTATO_GRUPO_ASSOC</sourceObjSchema>
+<sourceObjName>ID_GRUPO</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:56 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B19D978-BDCD-89DC-AB52-567C09905EFB" referredColumn="875339FF-FC87-448D-1F91-1299F252E7BF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A532E7A9-9979-D36F-9C31-30664CD964E2" schemaObject="CEFFA15D-89F7-E73E-A5FF-AAB17316F6EF" name="CONTATO_GRUPO_ASSOC_PK">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>DAVI7</sourceObjSchema>
+<sourceObjName>SYS_C008247</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:57 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DBB4352-FB8B-69ED-52C9-F39B44093638"/>
+<colUsage columnID="A4A75298-6070-0AE8-162D-68226952FC9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DAFECE4-1385-B6D5-3CC0-C809F77C1BDE" name="SYS_C008248">
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:59 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DBB4352-FB8B-69ED-52C9-F39B44093638"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D84C44C6-6016-4BD6-3EAD-3EC906E88D03" name="SYS_C008249">
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:59 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4A75298-6070-0AE8-162D-68226952FC9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

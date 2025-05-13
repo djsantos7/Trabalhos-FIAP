@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TRG_CONTATO_UPDATE" directorySegmentName="seg_0" id="C85AC2F8-1478-8DEF-9E9A-7F91568A9BD3">
+<sourceConnName>Oracle Fiap</sourceConnName>
+<sourceObjSchema>DAVI7</sourceObjSchema>
+<sourceObjName>TRG_CONTATO_UPDATE</sourceObjName>
+<createdBy>davis_c12wmxt</createdBy>
+<createdTime>2025-05-13 02:36:59 UTC</createdTime>
+<ownerDesignName>OracleDB Contatos</ownerDesignName>
+<actions>UPDATE</actions>
+<body><![CDATA[BEGIN
+    :NEW.dt_ultima_atualizacao := SYSTIMESTAMP;
+END;
+]]></body>
+<triggerTime>BEFORE</triggerTime>
+<owner>7420F1E3-D1E2-C193-3924-3B586D687BC3</owner>
+<table>93206641-2DA1-D45A-54DB-0C32549950AB</table>
+</TriggerOraclev10g>
