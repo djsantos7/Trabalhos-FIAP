@@ -1,0 +1,172 @@
+html, body {
+  height: 100%;
+}
+body {
+  background: #232733;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 0;
+}
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background: url('imagens/fundo tela de login.png') center center/cover no-repeat;
+  opacity: 0.25;
+}
+.login-card {
+  background: #0c121d;
+  border-radius: 20px;
+  padding: 60px 30px;
+  box-shadow: 0 0 20px #0004;
+  color: #fff;
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+}
+.login-card .avatar {
+  background: #2b7cff;
+  color: #181d2f;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  margin: 0 auto 24px auto;
+  box-shadow: 0 0 30px #2b7cff55;
+}
+.login-card h1 {
+  font-size: 2.7rem;
+  font-weight: bold;
+  color: #fff6c7;
+  margin-bottom: 2.5rem;
+}
+.login-card h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #fff6c7;
+  margin-bottom: 2.5rem;
+}
+.form-control {
+  background: #232733;
+  border: none;
+  color: #fff;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  padding: 18px 16px;
+  font-size: 1.15rem;
+}
+.form-control:focus {
+  background: #232733;
+  color: #fff;
+  box-shadow: none;
+  border: 1px solid #2b7cff;
+}
+.form-control::placeholder {
+  color: #888;
+  opacity: 1;
+}
+.btn-login {
+  background: #232733;
+  color: #fff6c7;
+  font-weight: bold;
+  border: none;
+  width: 100px;
+  border-radius: 8px;
+  margin: 0 auto 1rem auto;
+  transition: background 0.2s;
+  padding: 16px 0;
+  display: block;
+  font-size: 1.15rem;
+}
+.btn-login:hover {
+  background: #2b7cff;
+  color: #fff;
+}
+.forgot {
+  color: #fff;
+  opacity: 1;
+  margin-right: 5px;
+}
+.recover {
+  color: #fff6c7;
+  font-weight: bold;
+  text-decoration: none;
+}
+.recover:hover {
+  text-decoration: underline;
+  color: #ffe066;
+}
+.mt-2 {
+  margin-top: 1.5rem !important;
+}
+@media (max-width: 480px) {
+  .login-card {
+    padding: 32px 4px;
+    border-radius: 14px;
+  }
+  .login-card .avatar {
+    width: 60px;
+    height: 60px;
+    font-size: 2.2rem;
+    margin-bottom: 16px;
+  }
+  .login-card h1 {
+    font-size: 2rem;
+    margin-bottom: 0.7rem;
+  }
+  .login-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  .form-control {
+    font-size: 1.05rem;
+    margin-bottom: 1.2rem;
+    padding: 14px 10px;
+  }
+  .btn-login {
+    width: 100% !important;
+    min-width: 0;
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+    padding: 14px 0;
+  }
+  .mt-2 {
+    margin-top: 1rem !important;
+  }
+}
+.logo-avatar {
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin: 0 auto 24px auto;
+  background: #181d2f;
+  border-radius: 50%;
+  box-shadow: 0 0 30px #2b7cff55;
+  object-fit: contain;
+}
+.btn-biometria {
+  display: block;
+  margin: 1rem auto 0.5rem auto;
+  background: #232733;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 2px 8px #0002;
+  transition: background 0.2s;
+  cursor: pointer;
+  padding: 0;
+}
+.btn-biometria:hover {
+  background: #2b7cff22;
+} 
