@@ -1,6 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<StorageDesignOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.StorageDesignOraclev20c" name="Oracle Database 21c" id="4F5D4813-4A99-29E9-2E5F-D0632F6549EA" siteID="01F6E6D1-21D0-CFBD-ABDD-3988D1813575" siteName="Oracle Database 21c" siteType="17">
-<createdBy>davis_c12wmxt</createdBy>
-<createdTime>2025-05-13 02:36:41 UTC</createdTime>
-<ownerDesignName>Exercicio CAP 5</ownerDesignName>
-</StorageDesignOraclev20c>
